@@ -25,6 +25,8 @@
 #include <linux/mman.h> /* for MAP_HUGE_2MB */
 #endif
 
+#include "yespower.h"
+
 #define HUGEPAGE_THRESHOLD		(12 * 1024 * 1024)
 
 #ifdef __x86_64__
